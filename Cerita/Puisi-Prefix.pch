@@ -1,0 +1,52 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Social/Social.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "ProgressHUD.h"
+#import "MMDrawerVisualState.h"
+#import "MMDrawerBarButtonItem.h"
+#import "MMDrawerController.h"
+#import "newsModel.h"
+#import "UIViewController+MMDrawerController.h"
+#import "AFNetworking.h"
+#import "ceritaAppDelegate.h"
+#import "ceritaCell.h"
+#import "NSString_stripHtml.h"
+#import "netra.h"
+#import "UIScrollView+SpiralPullToRefresh.h"
+#import "UIImageView+AFNetworking.h"
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
+#import "TransitionManager.h"
+
+//using initials apps shared
+#define beetlebox ((ceritaAppDelegate *)[[UIApplication sharedApplication] delegate])
+
+//check OS version
+#define IS_IPHONE5 (([[UIScreen mainScreen] bounds].size.height-568)?NO:YES)
+#define IS_OS_5_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0)
+#define IS_OS_6_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+#define IS_OS_7_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+
+//remove nslog while production
+#ifdef DEBUG
+#   define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#   define NSLog(...)
+#endif
+#endif
+
+

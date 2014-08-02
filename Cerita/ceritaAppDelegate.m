@@ -31,7 +31,7 @@
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIColor whiteColor], NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
-                                                           [UIFont fontWithName:@"HelveticaNeue-Light" size:18], NSFontAttributeName, nil]];
+                                                           [UIFont fontWithName:@"HelveticaNeue-Bold" size:18], NSFontAttributeName, nil]];
 	
 	main_center = [[UIView alloc]initWithFrame:CGRectMake(85, 0, 150, 44)];
 	main_center.backgroundColor = [UIColor clearColor];

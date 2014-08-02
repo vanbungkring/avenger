@@ -164,14 +164,7 @@ CGPoint lastOffset;
 	
 	return [news_array count];
 }
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    if(indexPath.row==news_array.count){
-        return 44;
-    }
-    else{
-        return 95;
-    }
-}
+
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 	
 	newsModel  *object_draw = [news_array objectAtIndex:indexPath.row];
@@ -204,6 +197,14 @@ CGPoint lastOffset;
 	}
 	
 }
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if(indexPath.row==news_array.count){
+        return 44;
+    }
+    else{
+        return 110;
+    }
+}
 -(UITableViewCell *)beritaCellRow:(NSIndexPath *)indexPath{
     newsModel  *object_draw = [news_array objectAtIndex:indexPath.row];
     static NSString *cells = @"CeritaCell";
@@ -218,14 +219,22 @@ CGPoint lastOffset;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     //green [UIColor colorWithRed:0.18 green:0.8 blue:0.443 alpha:1]
-    if([object_draw.categories_title isEqualToString:@"Puisi"])
-        cell.tag_label.backgroundColor = [UIColor colorWithRed:0.18 green:0.8 blue:0.443 alpha:1];
-    else if([object_draw.categories_title isEqualToString:@"Cerpen"])
-        cell.tag_label.backgroundColor = [UIColor colorWithRed:0.906 green:0.298 blue:0.235 alpha:1];
-    else if([object_draw.categories_title isEqualToString:@"Sajak"])
-        cell.tag_label.backgroundColor = [UIColor colorWithRed:0.902 green:0.494 blue:0.133 alpha:1];
-    else
-        cell.tag_label.backgroundColor = [UIColor colorWithRed:0.173 green:0.243 blue:0.314 alpha:1];
+    if([object_draw.categories_title isEqualToString:@"Puisi"]){
+        cell.tag_label.layer.borderColor = [UIColor colorWithRed:0.408 green:0.686 blue:0.012 alpha:1].CGColor;
+        cell.tag_label.textColor = [UIColor colorWithRed:0.408 green:0.686 blue:0.012 alpha:1];
+    }
+    else if([object_draw.categories_title isEqualToString:@"Cerpen"]){
+        cell.tag_label.layer.borderColor = [UIColor colorWithRed:0.906 green:0.298 blue:0.235 alpha:1].CGColor;
+        cell.tag_label.textColor = [UIColor colorWithRed:0.906 green:0.298 blue:0.235 alpha:1];
+    }
+    else if([object_draw.categories_title isEqualToString:@"Sajak"]){
+        cell.tag_label.layer.borderColor = [UIColor colorWithRed:0.902 green:0.494 blue:0.133 alpha:1].CGColor;
+        cell.tag_label.textColor = [UIColor colorWithRed:0.902 green:0.494 blue:0.133 alpha:1];
+    }
+    else{
+        cell.tag_label.layer.borderColor = [UIColor colorWithRed:0.173 green:0.243 blue:0.314 alpha:1].CGColor;
+        cell.tag_label.textColor = [UIColor colorWithRed:0.173 green:0.243 blue:0.314 alpha:1];
+    }
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"yyyy-MM-dd  HH:mm:ss"];
@@ -245,7 +254,7 @@ CGPoint lastOffset;
     
     CGFloat strikeWidth = textSize.width;
     
-    cell.relative_time.frame =CGRectMake(strikeWidth+15, 25, 50, 15);
+    cell.relative_time.frame =CGRectMake(strikeWidth+15, 35, 50, 15);
     [cell.relative_time sizeToFit];
     [cell.share addTarget:self action:@selector(showActionSheet:) forControlEvents:UIControlEventTouchUpInside];
     

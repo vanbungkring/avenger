@@ -19,23 +19,23 @@
 		self.container.backgroundColor = [UIColor whiteColor];
 		self.container.layer.borderColor = [UIColor colorWithRed:0.855 green:0.855 blue:0.855 alpha:1].CGColor;
         // Initialization code
-		self.title = [[UILabel alloc]initWithFrame:CGRectMake(10, 0, 300, 20)];
+		self.title = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, 300, 20)];
 		self.title.textColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1];
 		self.title.numberOfLines = 1;
 		self.title.lineBreakMode = NSLineBreakByTruncatingTail;
 		self.title.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:16];
         
         // Initialization code
-        self.tag_label = [[UILabel alloc]initWithFrame:CGRectMake(10, 25, 50, 15)];
+        self.tag_label = [[UILabel alloc]initWithFrame:CGRectMake(10, 35, 50, 15)];
         self.tag_label.textColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1];
         self.tag_label.numberOfLines = 1;
-        self.tag_label.layer.borderWidth =0.5;
+        self.tag_label.layer.borderWidth =1;
         self.tag_label.layer.masksToBounds = YES;
         self.tag_label.layer.borderColor = [UIColor clearColor].CGColor;
         self.tag_label.layer.cornerRadius = 3;
         self.tag_label.textColor = [UIColor whiteColor];
         self.tag_label.lineBreakMode = NSLineBreakByTruncatingTail;
-        self.tag_label.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:13];
+        self.tag_label.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:13];
         self.tag_label.textAlignment = NSTextAlignmentJustified;
         
         // Initialization code
@@ -46,7 +46,7 @@
         self.relative_time.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:13];
         self.relative_time.textAlignment = NSTextAlignmentJustified;
 
-		self.excerpt = [[UILabel alloc]initWithFrame:CGRectMake(10, 47, 300, 20)];
+		self.excerpt = [[UILabel alloc]initWithFrame:CGRectMake(10, 57, 300, 20)];
 		self.excerpt.textColor = [UIColor darkGrayColor];
 		self.excerpt.numberOfLines = 3;
 		self.excerpt.lineBreakMode = NSLineBreakByWordWrapping;

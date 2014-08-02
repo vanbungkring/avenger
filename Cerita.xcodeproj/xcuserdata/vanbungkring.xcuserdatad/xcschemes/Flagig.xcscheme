@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D00A7BA018092DED0082DE8A"
-               BuildableName = "Puisi.app"
-               BlueprintName = "Puisi"
-               ReferencedContainer = "container:Puisi.xcodeproj">
+               BuildableName = "Cerita.app"
+               BlueprintName = "Cerita"
+               ReferencedContainer = "container:Cerita.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D00A7BBB18092DED0082DE8A"
-               BuildableName = "PuisiTests.xctest"
-               BlueprintName = "PuisiTests"
-               ReferencedContainer = "container:Puisi.xcodeproj">
+               BuildableName = "CeritaTests.xctest"
+               BlueprintName = "CeritaTests"
+               ReferencedContainer = "container:Cerita.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D00A7BA018092DED0082DE8A"
-            BuildableName = "Puisi.app"
-            BlueprintName = "Puisi"
-            ReferencedContainer = "container:Puisi.xcodeproj">
+            BuildableName = "Cerita.app"
+            BlueprintName = "Cerita"
+            ReferencedContainer = "container:Cerita.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D00A7BA018092DED0082DE8A"
-            BuildableName = "Puisi.app"
-            BlueprintName = "Puisi"
-            ReferencedContainer = "container:Puisi.xcodeproj">
+            BuildableName = "Cerita.app"
+            BlueprintName = "Cerita"
+            ReferencedContainer = "container:Cerita.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D00A7BA018092DED0082DE8A"
-            BuildableName = "Puisi.app"
-            BlueprintName = "Puisi"
-            ReferencedContainer = "container:Puisi.xcodeproj">
+            BuildableName = "Cerita.app"
+            BlueprintName = "Cerita"
+            ReferencedContainer = "container:Cerita.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

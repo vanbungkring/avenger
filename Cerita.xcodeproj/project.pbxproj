@@ -57,7 +57,7 @@
 		D0C77A9D1829483D006B359C /* back_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C77A371829483D006B359C /* back_@2x.png */; };
 		D0C77AA81829483D006B359C /* NoticiaText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0C77A431829483D006B359C /* NoticiaText-Bold.ttf */; };
 		D0C77AA91829483D006B359C /* NoticiaText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0C77A441829483D006B359C /* NoticiaText-Regular.ttf */; };
-		D0C77AAA1829483D006B359C /* Puisi-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C77A451829483D006B359C /* Puisi-Info.plist */; };
+		D0C77AAA1829483D006B359C /* Cerita-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C77A451829483D006B359C /* Cerita-Info.plist */; };
 		D0C77AAB1829483D006B359C /* ceritaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C77A481829483D006B359C /* ceritaAppDelegate.m */; };
 		D0C77AAC1829483D006B359C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C77A491829483D006B359C /* InfoPlist.strings */; };
 		D0C77AAD1829483D006B359C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C77A4B1829483D006B359C /* Images.xcassets */; };
@@ -107,11 +107,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D00A7BA118092DED0082DE8A /* Puisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00A7BA118092DED0082DE8A /* Cerita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cerita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00A7BA418092DED0082DE8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D00A7BA618092DED0082DE8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D00A7BA818092DED0082DE8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D00A7BBC18092DED0082DE8A /* PuisiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuisiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00A7BBC18092DED0082DE8A /* CeritaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeritaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00A7BBD18092DED0082DE8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D00A7C1A18093BA60082DE8A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D00A7C1C18093BAC0082DE8A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -159,8 +159,8 @@
 		D0C77A371829483D006B359C /* back_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_@2x.png"; sourceTree = "<group>"; };
 		D0C77A431829483D006B359C /* NoticiaText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoticiaText-Bold.ttf"; sourceTree = "<group>"; };
 		D0C77A441829483D006B359C /* NoticiaText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoticiaText-Regular.ttf"; sourceTree = "<group>"; };
-		D0C77A451829483D006B359C /* Puisi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Puisi-Info.plist"; sourceTree = "<group>"; };
-		D0C77A461829483D006B359C /* Puisi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Puisi-Prefix.pch"; sourceTree = "<group>"; };
+		D0C77A451829483D006B359C /* Cerita-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Cerita-Info.plist"; sourceTree = "<group>"; };
+		D0C77A461829483D006B359C /* Cerita-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cerita-Prefix.pch"; sourceTree = "<group>"; };
 		D0C77A471829483D006B359C /* ceritaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ceritaAppDelegate.h; sourceTree = "<group>"; };
 		D0C77A481829483D006B359C /* ceritaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ceritaAppDelegate.m; sourceTree = "<group>"; };
 		D0C77A4A1829483D006B359C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -278,8 +278,8 @@
 		D00A7BA218092DED0082DE8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D00A7BA118092DED0082DE8A /* Puisi.app */,
-				D00A7BBC18092DED0082DE8A /* PuisiTests.xctest */,
+				D00A7BA118092DED0082DE8A /* Cerita.app */,
+				D00A7BBC18092DED0082DE8A /* CeritaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -363,8 +363,8 @@
 			isa = PBXGroup;
 			children = (
 				D0C77A351829483D006B359C /* assets */,
-				D0C77A451829483D006B359C /* Puisi-Info.plist */,
-				D0C77A461829483D006B359C /* Puisi-Prefix.pch */,
+				D0C77A451829483D006B359C /* Cerita-Info.plist */,
+				D0C77A461829483D006B359C /* Cerita-Prefix.pch */,
 				D0C77A471829483D006B359C /* ceritaAppDelegate.h */,
 				D0C77A481829483D006B359C /* ceritaAppDelegate.m */,
 				D0C77A491829483D006B359C /* InfoPlist.strings */,
@@ -575,9 +575,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D00A7BA018092DED0082DE8A /* Puisi */ = {
+		D00A7BA018092DED0082DE8A /* Cerita */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D00A7BCD18092DED0082DE8A /* Build configuration list for PBXNativeTarget "Puisi" */;
+			buildConfigurationList = D00A7BCD18092DED0082DE8A /* Build configuration list for PBXNativeTarget "Cerita" */;
 			buildPhases = (
 				D00A7B9D18092DED0082DE8A /* Sources */,
 				D00A7B9E18092DED0082DE8A /* Frameworks */,
@@ -587,14 +587,14 @@
 			);
 			dependencies = (
 			);
-			name = Puisi;
+			name = Cerita;
 			productName = Cerita;
-			productReference = D00A7BA118092DED0082DE8A /* Puisi.app */;
+			productReference = D00A7BA118092DED0082DE8A /* Cerita.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D00A7BBB18092DED0082DE8A /* PuisiTests */ = {
+		D00A7BBB18092DED0082DE8A /* CeritaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D00A7BD018092DED0082DE8A /* Build configuration list for PBXNativeTarget "PuisiTests" */;
+			buildConfigurationList = D00A7BD018092DED0082DE8A /* Build configuration list for PBXNativeTarget "CeritaTests" */;
 			buildPhases = (
 				D00A7BB818092DED0082DE8A /* Sources */,
 				D00A7BB918092DED0082DE8A /* Frameworks */,
@@ -605,9 +605,9 @@
 			dependencies = (
 				D00A7BC218092DED0082DE8A /* PBXTargetDependency */,
 			);
-			name = PuisiTests;
+			name = CeritaTests;
 			productName = CeritaTests;
-			productReference = D00A7BBC18092DED0082DE8A /* PuisiTests.xctest */;
+			productReference = D00A7BBC18092DED0082DE8A /* CeritaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -628,7 +628,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D00A7B9C18092DED0082DE8A /* Build configuration list for PBXProject "Puisi" */;
+			buildConfigurationList = D00A7B9C18092DED0082DE8A /* Build configuration list for PBXProject "Cerita" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -640,8 +640,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D00A7BA018092DED0082DE8A /* Puisi */,
-				D00A7BBB18092DED0082DE8A /* PuisiTests */,
+				D00A7BA018092DED0082DE8A /* Cerita */,
+				D00A7BBB18092DED0082DE8A /* CeritaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -679,7 +679,7 @@
 				D0C77ABF1829483D006B359C /* ProgressHUD.bundle in Resources */,
 				D0C77A9D1829483D006B359C /* back_@2x.png in Resources */,
 				D0BFE3EA1838B1BF00D8A0C9 /* event@2x.png in Resources */,
-				D0C77AAA1829483D006B359C /* Puisi-Info.plist in Resources */,
+				D0C77AAA1829483D006B359C /* Cerita-Info.plist in Resources */,
 				D01B3B74183C94A0000E7563 /* time.png in Resources */,
 				D0BFE3E91838B1BF00D8A0C9 /* event.png in Resources */,
 				D0BFE3E71838B1BF00D8A0C9 /* check-mark.png in Resources */,
@@ -757,7 +757,7 @@
 /* Begin PBXTargetDependency section */
 		D00A7BC218092DED0082DE8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D00A7BA018092DED0082DE8A /* Puisi */;
+			target = D00A7BA018092DED0082DE8A /* Cerita */;
 			targetProxy = D00A7BC118092DED0082DE8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -858,14 +858,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cerita/Puisi-Prefix.pch";
-				INFOPLIST_FILE = "Cerita/Puisi-Info.plist";
+				GCC_PREFIX_HEADER = "Cerita/Cerita-Prefix.pch";
+				INFOPLIST_FILE = "Cerita/Cerita-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					Cerita/library/GA,
 				);
-				PRODUCT_NAME = Puisi;
+				PRODUCT_NAME = Cerita;
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -881,14 +881,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cerita/Puisi-Prefix.pch";
-				INFOPLIST_FILE = "Cerita/Puisi-Info.plist";
+				GCC_PREFIX_HEADER = "Cerita/Cerita-Prefix.pch";
+				INFOPLIST_FILE = "Cerita/Cerita-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					Cerita/library/GA,
 				);
-				PRODUCT_NAME = Puisi;
+				PRODUCT_NAME = Cerita;
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -912,7 +912,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CeritaTests/CeritaTests-Info.plist";
-				PRODUCT_NAME = PuisiTests;
+				PRODUCT_NAME = CeritaTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -931,7 +931,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cerita/Cerita-Prefix.pch";
 				INFOPLIST_FILE = "CeritaTests/CeritaTests-Info.plist";
-				PRODUCT_NAME = PuisiTests;
+				PRODUCT_NAME = CeritaTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -940,7 +940,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D00A7B9C18092DED0082DE8A /* Build configuration list for PBXProject "Puisi" */ = {
+		D00A7B9C18092DED0082DE8A /* Build configuration list for PBXProject "Cerita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00A7BCB18092DED0082DE8A /* Debug */,
@@ -949,7 +949,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D00A7BCD18092DED0082DE8A /* Build configuration list for PBXNativeTarget "Puisi" */ = {
+		D00A7BCD18092DED0082DE8A /* Build configuration list for PBXNativeTarget "Cerita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00A7BCE18092DED0082DE8A /* Debug */,
@@ -958,7 +958,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D00A7BD018092DED0082DE8A /* Build configuration list for PBXNativeTarget "PuisiTests" */ = {
+		D00A7BD018092DED0082DE8A /* Build configuration list for PBXNativeTarget "CeritaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00A7BD118092DED0082DE8A /* Debug */,
